@@ -6,10 +6,10 @@
 
 # Description:
 This is my repository for my new and updated landing page!
-I am using a handy HTML template from HTML5 UP! https://html5up.net/ 
+I am using a handy HTML template from HTML5 UP! https://html5up.net/ <br>
 This landing page project serves as a way to introduce myself to others, share my interests with them,
-and by making changes to the template, it even has allowed me to practice my HTML, CSS, and Javascript! 
-
+and by making changes to the template, it even has allowed me to practice my HTML, CSS, and Javascript! <br>
+https://israelshowell.github.io/Landing-Page/
 
 This is code from the original version of my landing page I made from scratch: 
 https://github.com/IsraelShowell/Former-Landing-Page
