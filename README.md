@@ -22,8 +22,8 @@ Uploaded to Github <br>
 
 
 # V-2.10: (9/11/2024)
-Initial Version <br>
-Uploaded to Github <br>
+Updated source code <br>
+Added in a page for the Stock Master project <br>
 
 
 
