@@ -2,11 +2,12 @@
 # Start Date: 7/22/2024
 # End Date: On Going
 # Project: Professional Portfolio
-# Version: 2.10
+# Version: 2.20
 
 # Description:
 This is my repository for my new and updated Professional Portfolio!
 I am using a handy HTML template from HTML5 UP! https://html5up.net/ <br>
+
 This landing page project serves as a way to introduce myself to others, share my interests with them,
 and by making changes to the template, it even has allowed me to practice my HTML, CSS, and Javascript! <br>
 https://israelshowell.github.io/Landing-Page/
@@ -25,9 +26,12 @@ Uploaded to Github <br>
 Updated source code <br>
 Added in a page for the Stock Master project <br>
 
+# V-2.20: (9/15/2024)
+Updated source code <br>
+Changed resumes and layouts <br>
 
 
-# Current Features as of V-2.10:
+# Current Features as of V-2.20:
 - A viewer can read a little bit about me, my projects, and my goals!
 - Able to located on the internet
 - SEO is added into the HTML
@@ -36,8 +40,8 @@ Added in a page for the Stock Master project <br>
 
 # Future Features to Implement:
 - Use a custom domain for landing page
-- Display more information about projects
-- Improve the UI 
+- Display more information about projects - Done
+- Improve the UI - Done
 - Embed some of my projects into the website
 - React version of website
 - Add a blog functionality to the site
