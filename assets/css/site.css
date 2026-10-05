@@ -604,21 +604,19 @@ a.card .more { display: inline-block; margin-top: 0.8rem; font-size: 0.85rem; co
 .project.featured .project-body { padding: 1.6rem 1.8rem; }
 .project.featured h3 { font-size: 1.45rem; }
 
-.project-thumb.art {
+.project-thumb.logo {
 	display: flex;
-	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap: 0.6rem;
-	background:
-		radial-gradient(circle at 30% 20%, rgba(228, 76, 101, 0.55), transparent 60%),
-		radial-gradient(circle at 80% 90%, rgba(228, 76, 101, 0.25), transparent 55%),
-		#2a1d2a;
-	color: #fff;
+	background: #0e0e0c;
 }
-.project-thumb.art i { font-size: 3rem; transition: transform 0.35s; }
-.project-thumb.art span { font-size: 1.3rem; letter-spacing: 0.06em; }
-.project.featured:hover .project-thumb.art i { transform: scale(1.08); }
+.project-thumb.logo img {
+	width: auto;
+	height: 100%;
+	max-height: 280px;
+	object-fit: contain;
+	object-position: center;
+}
 
 @media (max-width: 720px) {
 	.project.featured { flex-direction: column; }
