@@ -2,7 +2,7 @@
 # Start Date: 7/22/2024
 # End Date: On Going
 # Project: Professional Portfolio
-# Version: 2.20
+# Version: 3.00
 
 # Description:
 This is my repository for my new and updated Professional Portfolio!
@@ -31,7 +31,12 @@ Updated source code <br>
 Changed resumes and layouts <br>
 
 
-# Current Features as of V-2.20:
+# V-3.00: (10/5/2026)
+Rebuilt index.html as a lightweight, mobile-first page with its own stylesheet (assets/css/site.css) <br>
+Refocused on IT support and Azure cloud infrastructure; condensed older experience and projects <br>
+Updated resume to the current PDF and fixed the navigation markup on project pages <br>
+
+# Current Features as of V-3.00:
 - A viewer can read a little bit about me, my projects, and my goals!
 - Able to located on the internet
 - SEO is added into the HTML

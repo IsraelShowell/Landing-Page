@@ -1,280 +1,433 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
-Israel Showell
-Project Date: 7-22-24
-Description:
-This is the second version of my landing page!
-
-Template from:
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Israel Showell - Professional Landing Page
+Version 3.0 (October 2026)
+Rebuilt as a lightweight, mobile-first page focused on IT support and
+cloud infrastructure work. Project pages still use the HTML5 UP template (main.css).
 -->
-<html>
+<html lang="en">
 	<head>
-		<title>Israel's Professional Portfolio</title>
-		
 		<meta charset="utf-8" />
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		
-		<meta name="description" content="Welcome to Israel Showell's landing page! Here I showcase my skills, projects, and accomplishments in computer science and software engineering!"/>
-		
-		<meta name="keywords" content="Israel, Israel Showell, landing page, portfolio, computer science, software engineering, full-stack development, 
-		front-end development, back-end development, machine learning, web development, AMIE design competition, Voluble, 
-		university, C++, iris flower predictor, GitHub, LinkedIn, design thinking, UMES"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Israel Showell | IT &amp; Cloud Infrastructure</title>
 
-		<!-- Open Graph meta tags -->
-		<meta property="og:title" content="Israel's Landing Page" />
-		<meta property="og:description" content="Welcome to Israel Showell's landing page! Feel free to explore my projects and what I've been up to!" />
-		<meta property="og:image" content="https://github.com/IsraelShowell/Landing-Page/blob/main/images/row-headshot-meta-tag-img.jpeg?raw=true" />
-		<meta property="og:url" content="https://rb.gy/1wf670" />
+		<meta name="description" content="Israel Showell is an IT Technician with 4+ years of experience in service desk support, Active Directory, and Azure cloud administration including VMs, virtual networks, Microsoft Entra ID, and storage accounts." />
+		<meta name="keywords" content="Israel Showell, IT Technician, Service Desk, Azure Administrator, AZ-104, Microsoft Entra ID, Active Directory, Virtual Machines, Virtual Networks, Storage Accounts, Cloud Infrastructure, CompTIA Security+, Salisbury MD" />
+		<meta name="theme-color" content="#1c1d26" />
+
+		<!-- Open Graph -->
+		<meta property="og:title" content="Israel Showell | IT & Cloud Infrastructure" />
+		<meta property="og:description" content="IT Technician and Azure administrator: service desk, identity, and cloud infrastructure." />
+		<meta property="og:image" content="https://israelshowell.github.io/Landing-Page/images/row-headshot-meta-tag-img.jpeg" />
+		<meta property="og:url" content="https://israelshowell.github.io/Landing-Page/" />
 		<meta property="og:type" content="website" />
 
-		<link rel="stylesheet" href="assets/css/main.css" />
-
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
-		
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" />
+		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+		<link rel="stylesheet" href="assets/css/site.css" />
 	</head>
-	<body class="is-preload landing">
-		<div id="page-wrapper">
-			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="index.html">Israel Showell</a></h1>
-					<a href="#"><nav id="nav"></a>
+	<body>
+		<a class="skip-link" href="#main">Skip to content</a>
 
-							
-						<ul>
+		<!-- Header -->
+		<header class="site-header">
+			<div class="container">
+				<a class="logo" href="#top">Israel <span>Showell</span></a>
+				<button class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu">
+					<i class="fas fa-bars" aria-hidden="true"></i>
+				</button>
+				<nav class="site-nav" id="site-nav" aria-label="Main">
+					<ul>
+						<li><a href="#cloud">Cloud</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#background">Background</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a class="nav-cta" href="assets/resumes/Israel-Showell-IT-Resume.pdf" target="_blank" rel="noopener">Resume</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
 
-							<li><a href="https://github.com/IsraelShowell" target="_blank">Github</a></li>
-							<li><a href="https://www.linkedin.com/in/israel-showell" target="_blank">LinkedIn</a></li>
-							<li>
-								<a href="#">Resume</a>
-								<ul>
-									<li>
-										<a href="assets/resumes/Showell, Israel - Short Resume-1.png" target="_blank">Resume</a>
-									</li>
-							</li>
-							<li>
-								<a href="#">Projects</a>
-								<ul>
-									<li><a href="http://officialwhywait.com/" target="_blank">WhyWait</a></li>
-									<li><a href="prioritask.html">Prioritask</a></li>
-									<li><a href="stock-master.html">Stock Master</a></li>
-									<li><a href="voluble.html">Voluble</a></li>
-									<li><a href="web-application.html">University Course Evaluation</a></li>
-									<li><a href="iris-predictor.html">C++ Iris Flower Predictor</a></li>
-								</ul>
-							</li>
+		<main id="main">
+
+			<!-- Hero -->
+			<section class="hero" id="top">
+				<div class="container">
+					<div>
+						<p class="eyebrow">IT Technician &middot; Salisbury, MD</p>
+						<h1>Israel Showell</h1>
+						<p class="role">Service Desk &amp; Cloud Infrastructure Administration</p>
+						<p class="summary">
+							IT Technician with 4+ years supporting fast-paced, multi-platform environments across Windows, macOS, and Linux.
+							I administer and deploy cloud and on-premises infrastructure: Azure virtual machines, virtual networks,
+							Microsoft Entra ID, and storage accounts. I'm known for calm communication, thorough documentation, and effective troubleshooting.
+						</p>
+						<div class="hero-actions">
+							<a class="btn btn-primary" href="assets/resumes/Israel-Showell-IT-Resume.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i> View Resume</a>
+							<a class="btn" href="https://www.linkedin.com/in/israel-showell" target="_blank" rel="noopener"><i class="fab fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a>
+							<a class="btn" href="mailto:showellisrael0@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
+						</div>
+						<ul class="badges">
+							<li><i class="fas fa-certificate" aria-hidden="true"></i>CompTIA Security+</li>
+							<li><i class="fas fa-cloud" aria-hidden="true"></i>AZ-104 Azure Administrator (In Progress)</li>
+							<li><i class="fas fa-graduation-cap" aria-hidden="true"></i>B.S. Computer Science</li>
 						</ul>
-					</nav>
-				</header>
+					</div>
+					<div class="hero-photo">
+						<img src="images/profile.jpg" width="640" height="640" alt="Israel Showell" />
+					</div>
+				</div>
+			</section>
 
-			<!-- Banner -->
-						
-				<section id="banner">
-					<div class="content">
-						<header>
+			<!-- Stats -->
+			<section class="stats" aria-label="Highlights">
+				<div class="container">
+					<ul>
+						<li><strong>5,000<em>+</em></strong><span>tickets resolved</span></li>
+						<li><strong>93<em>%</em></strong><span>same-day resolution</span></li>
+						<li><strong>95<em>%</em></strong><span>first-touch call resolution</span></li>
+						<li><strong>96<em>%</em></strong><span>top CSAT scores</span></li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- Cloud -->
+			<section class="section" id="cloud">
+				<div class="container">
+					<div class="section-head">
+						<h2>Cloud Infrastructure</h2>
+						<p>Hands-on Azure administration, from identity to compute, networking, and storage, with work toward the Microsoft Azure Administrator Associate (AZ-104).</p>
+					</div>
+					<div class="grid">
+						<div class="card">
+							<span class="icon"><i class="fas fa-server" aria-hidden="true"></i></span>
+							<h3>Virtual Machines</h3>
+							<p>Deploy, configure, and maintain Windows and Linux VMs, including sizing, disks, remote access, and patching.</p>
+						</div>
+						<div class="card">
+							<span class="icon"><i class="fas fa-network-wired" aria-hidden="true"></i></span>
+							<h3>Virtual Networks</h3>
+							<p>Build and administer VNets and subnets, control traffic with network security groups, and troubleshoot connectivity.</p>
+						</div>
+						<div class="card">
+							<span class="icon"><i class="fas fa-user-shield" aria-hidden="true"></i></span>
+							<h3>Microsoft Entra ID</h3>
+							<p>Manage users, groups, MFA, and role-based access alongside on-premises Active Directory.</p>
+						</div>
+						<div class="card">
+							<span class="icon"><i class="fas fa-database" aria-hidden="true"></i></span>
+							<h3>Storage Accounts</h3>
+							<p>Provision and secure storage accounts, blob containers, and file shares, and handle data transfer and backup.</p>
+						</div>
+						<div class="card">
+							<span class="icon"><i class="fas fa-terminal" aria-hidden="true"></i></span>
+							<h3>Automation</h3>
+							<p>Script repeatable tasks with Azure CLI, Azure PowerShell, Bash, and Python.</p>
+						</div>
+						<div class="card">
+							<span class="icon"><i class="fas fa-shield-alt" aria-hidden="true"></i></span>
+							<h3>Security</h3>
+							<p>Apply least-privilege access and data-security practices across cloud and on-premises environments (Security+).</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Experience -->
+			<section class="section alt" id="experience">
+				<div class="container">
+					<div class="section-head">
+						<h2>Experience</h2>
+					</div>
+
+					<article class="job">
+						<div class="job-head">
 							<div>
-								<p style="font-size: 24px;">"AI is like any system designed by humans, whether it be political, economic, or educational. The system is and can only be as good as the humans who design and use it."</p>
-								<h2 style="font-size: 20px;">- Israel Showell, February 2024</h2>
+								<h3>Service Desk Technician</h3>
+								<span class="org">TidalHealth &middot; Salisbury, MD</span>
 							</div>
-						</header>
-
-						<img class="image" id="animated-image2" src="images/Israel-thinking-cropped.jpeg" alt="A picture of Israel Showell deep in thought." />
-						<img class="image" id="animated-image"  src="images/Israel-thinking-cropped2.jpeg" alt="A picture of Israel Showell deep in thought, but reversed." />
-				
-
-
-					</div>
-					<a href="#one" class="goto-next scrolly">Next</a>
-				</section>
-
-			<!-- One -->
-			 
-				<section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="images/pic02.jpg" alt="A banner image from HTML5 UP." /></span>
-					<div class="content">
-						<div class="container">
-							<div class="row">
-								<div class="col-4 col-12-medium">
-									<header>
-										<h2>A little about me</h2>
-										<p style="font-size: 18px;">I was born in February 2005! From the age of 8, I was always fascinated by software, computers, and video games, as such, when I entered university at the 
-											age of 16 in Fall 2021, I sought out a computer science degree to fufill my fascination! 
-											Recently, I graduated in December 2024 with my bachelor's degree in computer science!</p>
-									</header>
-								</div>
-								<div class="col-4 col-12-medium">
-									<p style="font-size: 15px;">
-										I've learned many skills, programming languages and processes, and have had opportunities 
-										to expand and further hone my abilites.
-										After graduation, I plan to become a software engineer/developer working on the Front, Back, or Full stack of software applications!
-										I am also planning to obtain my Master's degree in a business or computer science related field as well!
-										<br/> Below are some of my most practiced skills from my resumes;	
-									</p>
-										<ul style="font-size: 14px;">
-											<li>Collaboration</li>
-											<li>Experience in Multiple Programing Languages</li>
-											<li>Object-Oriented Programming</li>
-											<li>Computer Software Installation and Configuration</li>
-											<li>Software Development (Full Stack)</li>
-										</ul>
-										<ul style="font-size: 14px;">
-											<li>Machine Learning/AI</li>
-											<li>Web and Application Development</li>
-											<li>Troubleshooting</li>
-											<li>Design Thinking</li>
-											<li>Relational Database Management Systems</li>
-										</ul>
-									
-								</div>
-								<div class="col-4 col-12-medium">
-									<p style="font-size: 15px;">
-										To both satisfy my curious and inventive nature and better prepare myself for my career, I like to develop passion projects that utilize new technologies, 
-										improve my knowledge base, and challenge me to rise to new challenges...and new programming errors...<br/> 
-										In this pursuit, I've been able to gather and refine many of my skills through hands-on projects, internships, and confrences!
-										
-									</p>
-								</div>
-							</div>
+							<span class="date">July 2025 &ndash; Present</span>
 						</div>
-					</div>
-					<a href="#two" class="goto-next scrolly">Next</a>
-				</section>
-
-			<!-- Two -->
-				<section id="two" class="spotlight style2 right">
-					<span class="image fit main"><img src="images/iris-code.png" alt="A snippet of code from Israel's iris flower predictor." /></span>
-					<div class="content">
-						<header>
-							<h2>Passion Projects</h2>
-							<p style="font-size: 16px;">
-								Working on the Full-Stack is my one of my favorite parts of software engineering, as I am able to see how the 
-								Back-End processes data, works with databases, and I can see how the Front-End renders the data to the 
-								user in a way that ensures that the user's experience is smooth and pleasant!<br/><br/> Designing the software in my head then on paper,
-								creating flowcharts, and making prototypes are some other aspects I enjoy doing!
-								<br/><br/>
-								As such, the projects I enjoy creating the most fall into the realm of either apps, web applications, games,
-								and machine learning/AI enhanced applications!
-							</p>
-						</header>
-						
-						<ul class="actions">
-							<li><a href="https://github.com/IsraelShowell" target="_blank" class="button">Github</a></li>
+						<ul>
+							<li>Support endpoints across multiple hospital locations, on-site and remotely, while maintaining HIPAA compliance.</li>
+							<li>Resolve issues with Epic, Citrix, Microsoft 365, MFA/Imprivata workflows, printers, peripherals, and network connectivity.</li>
+							<li>Handle day-to-day Active Directory administration: password resets, unlocks, provisioning requests, and enabling or disabling accounts and endpoints.</li>
+							<li>Resolved 5,000+ tickets in Freshservice with 93% same-day resolution, 95%+ first-touch call resolution, and 96% top CSAT scores.</li>
+							<li>Triage Epic issues, coordinate same-day escalation to application owners, and write visual guides that standardize fixes for recurring issues.</li>
+							<li>Train new Service Desk Technicians on tools, workflows, and goals.</li>
 						</ul>
+						<ul class="tags">
+							<li>Active Directory</li><li>Epic</li><li>Citrix</li><li>Microsoft 365</li><li>Imprivata</li><li>Freshservice</li><li>HIPAA</li>
+						</ul>
+					</article>
+
+					<article class="job">
+						<div class="job-head">
+							<div>
+								<h3>Full-Stack Developer</h3>
+								<span class="org">WhyWait LLC &middot; Remote</span>
+							</div>
+							<span class="date">April 2025 &ndash; Sept 2026</span>
+						</div>
+						<ul>
+							<li>Led front- and back-end development of WhyWait, a web-based mobile queue management prototype that lets businesses manage customer lines without traditional kiosk hardware.</li>
+							<li>Built a modular back end with Node.js, Expo, and a RESTful API, including geo-fenced queues, real-time updates, notifications, JWT-protected endpoints, Google reCAPTCHA, and account management.</li>
+							<li>Built a React front end for mobile and web with SEO, accessibility, and OAuth sign-in in mind.</li>
+							<li>Managed versions with Git and GitHub, then delivered and deployed a working prototype to production on AWS. The owner has since paused the project indefinitely.</li>
+						</ul>
+						<ul class="tags">
+							<li>React</li><li>Node.js</li><li>Expo</li><li>REST APIs</li><li>JWT</li><li>OAuth</li><li>AWS</li><li>Git</li>
+						</ul>
+					</article>
+
+					<h3 class="subhead">Earlier Experience</h3>
+					<div class="earlier">
+						<details>
+							<summary>
+								<span class="t">MSL Technical Support &amp; CS Tutor (Volunteer)<small>University of Maryland Eastern Shore</small></span>
+								<span class="d">2023 &ndash; 2025</span>
+							</summary>
+							<p>Co-led a 16-week CS program for 150+ students ages 8&ndash;17 (Scratch, HTML/CSS, JavaScript, Python). Kept lab machines, software, and peripherals class-ready, and wrote quick-start checklists that cut repeat setup questions.</p>
+						</details>
+						<details>
+							<summary>
+								<span class="t">Undergraduate CS Researcher<small>University of Maryland Eastern Shore</small></span>
+								<span class="d">Summer 2023</span>
+							</summary>
+							<p>Researched flipped-learning approaches for CS courses through literature review, survey design, and analysis, then delivered weekly briefs and final recommendations to faculty.</p>
+						</details>
+						<details>
+							<summary>
+								<span class="t">CS Teaching Assistant<small>University of Maryland Eastern Shore</small></span>
+								<span class="d">Spring 2023</span>
+							</summary>
+							<p>Ran 20+ hours/week of 1:1 and group sessions, mostly in C++, for 30+ students. Configured Windows systems and IDEs and handled classroom AV troubleshooting.</p>
+						</details>
+						<details>
+							<summary>
+								<span class="t">NSF REU Intern<small>Salisbury University</small></span>
+								<span class="d">Summer 2022</span>
+							</summary>
+							<p>Researched anomaly detection on large datasets using Wireshark, Python, Linux, and MapReduce, and presented the findings with a report and poster.</p>
+						</details>
 					</div>
-					<a href="#three" class="goto-next scrolly">Next</a>
-				</section>
+				</div>
+			</section>
 
-			<!-- Three -->
-				<section id="three" class="spotlight style3 left">
-					<span class="image fit main bottom"><img src="images/AMIE Design Challenge Group Picture.png" alt="A group picture with Israel, the rest of the UMES team and faculty, and their KBR sponsors." /></span>
-					<div class="content">
-						<header>
-							<h2>Skills Meet Experiences</h2>
-							<p style="font-size: 17px;">
-							
-								A noteable example of the utilization of my skills comes from my participation in the 2024 Advancing Minorites Interest in Engineering (AMIE) design thinking competition. 
-								
-								<br/> <br/>My collaboration, presentation, problem solving, designing, and my understanding and usage of AI were just some of the skills I had honed by developing a solution for AI bias with a team of students for the 2024 AMIE competition! 
-								<br/> <br/>After many weeks of researching, designing, and practicing, our team presented on stage at the BEYA confrence where AMIE was being hosted, and we were awarded first place for our efforts!
-								<br/><br/>(I was trying out a hat the day we presented at the BEYA confrence the AMIE design competition!)
-							</p>
-						</header>
-
-
-						
+			<!-- Skills -->
+			<section class="section" id="skills">
+				<div class="container">
+					<div class="section-head">
+						<h2>Skills</h2>
 					</div>
-					<a href="#four" class="goto-next scrolly">Next</a>
-				</section>
+					<div class="grid">
+						<div class="card skill-group">
+							<h3><i class="fas fa-cloud" aria-hidden="true"></i>Systems &amp; Platforms</h3>
+							<ul class="tags">
+								<li>Azure</li><li>Microsoft Entra ID</li><li>Active Directory</li><li>Windows</li><li>Linux</li><li>macOS</li><li>Microsoft 365</li><li>Citrix Workspace</li>
+							</ul>
+						</div>
+						<div class="card skill-group">
+							<h3><i class="fas fa-network-wired" aria-hidden="true"></i>Networking &amp; Endpoints</h3>
+							<ul class="tags">
+								<li>Virtual Networks</li><li>Virtual Machines</li><li>Connectivity Troubleshooting</li><li>Endpoint Configuration</li><li>Patch Management</li><li>Data Transfer &amp; Backup</li><li>Hardware Repair</li>
+							</ul>
+						</div>
+						<div class="card skill-group">
+							<h3><i class="fas fa-shield-alt" aria-hidden="true"></i>IT Operations &amp; Security</h3>
+							<ul class="tags">
+								<li>Cloud Administration</li><li>Information Security</li><li>Cloud &amp; On-Prem Data Security</li><li>SLAs</li><li>SOPs &amp; Knowledge Base</li><li>CSAT/FCR Tracking</li>
+							</ul>
+						</div>
+						<div class="card skill-group">
+							<h3><i class="fas fa-terminal" aria-hidden="true"></i>Scripting &amp; Automation</h3>
+							<ul class="tags">
+								<li>PowerShell</li><li>Azure CLI</li><li>Azure PowerShell</li><li>Bash</li><li>Python</li>
+							</ul>
+						</div>
+						<div class="card skill-group">
+							<h3><i class="fas fa-code" aria-hidden="true"></i>Development</h3>
+							<ul class="tags">
+								<li>JavaScript</li><li>React</li><li>Node.js</li><li>REST APIs</li><li>SQL</li><li>AWS</li><li>Git &amp; GitHub</li><li>C++</li><li>Java</li>
+							</ul>
+						</div>
+						<div class="card skill-group">
+							<h3><i class="fas fa-headset" aria-hidden="true"></i>ITSM &amp; Support Tools</h3>
+							<ul class="tags">
+								<li>Freshservice</li><li>Microsoft Teams</li><li>Zoom</li><li>Webex</li><li>Cisco</li><li>Remote Support</li>
+							</ul>
+						</div>
+						<div class="card skill-group">
+							<h3><i class="fas fa-users" aria-hidden="true"></i>Professional</h3>
+							<ul class="tags">
+								<li>Root Cause Analysis</li><li>Technical Training</li><li>Documentation</li><li>Cross-Team Collaboration</li><li>Incident Resolution</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
 
-			<!-- Four -->
-				<section id="four" class="wrapper style1 special fade-up">
-					<div class="container">
-						<header class="major">
-							<h2>Recent/Major Accomplishments</h2>
-							<p>Here are some of my accomplishments that I've made thus far!</p>
-						</header>
-						<div class="box alt">
-							<div class="row gtr-uniform">
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-chart-area"></span>
-									<h3>Entered University at 16 in Fall 2021</h3>
-									<p>Beginning my higher education at UMES at the age of 16 has been an interesting experience and taking into account all the challenges, projects, good and bad times, I'm glad to have started and now at 19, finish the first part of my higher education, be a part of the Class of 2024, and begin my next steps in life!</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-comment"></span>
-									<h3>Developed Voluble</h3>
-									<p>Designing and publishing an app has been a long time dream of mine! To kickstart this dream, I made a basic chat app, Voluble! The next step is to improve upon the methods I used to make Voluble, and launch a fully-prepared app to the world via the Google Play Store!</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-flask"></span>
-									<h3>1st place in the 2024 AMIE Design Thinking Competition</h3>
-									<p>
-										In Spring 2024, I represented UMES in a design thinking competition with a team of 6 other students, and we were awarded first place for our solution! 
-										This experience has left a lasting impact on me, and now I integrate design thinking into my software development process more than ever! In Fall 2024, my team and I were given the chance to present to the main AMIE confrence alongside the other 2 top-placing HBCUs!
-									</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-paper-plane"></span>
-									<h3>Headstarter AI Fellowship</h3>
-									<p>
-										I was a member in the Headstarter Fellowship!
-										Particapting in this fellowship with other like-minded individuals has helped me to increase my skills and continue to discover new technologies!
+			<!-- Background (condensed earlier content) -->
+			<section class="section alt" id="background">
+				<div class="container">
+					<div class="section-head">
+						<h2>Background</h2>
+						<p>The short version of where I started: computer science, software projects, and a few things I'm proud of.</p>
+					</div>
 
-									</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-file"></span>
-									<h3>Updated my Landing Page</h3>
-									<p>
-										The page you are on right now is an updated version of my previous one! 
-										It also is the first project from the Headstarter fellowship and has helped me improve both my designing and branding skills!
-									</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-comment"></span>
-									<h3>Volunteering</h3>
-									<p>During my time at UMES, I have volunteered as a computer science tutor for grade students from the ages 8 - 17, 
-										and other university students in a program called MSL Symphony! Helping others get into computer science reminds me of my own interest in technology,
-										and it fills with joy watching others light up as they explore the same world that captivated me at the age of 8!
-									</p>
-								</section>
+					<div class="split">
+						<div class="card">
+							<ul class="list-plain">
+								<li>
+									<i class="fas fa-graduation-cap" aria-hidden="true"></i>
+									<span><strong>B.S. Computer Science, UMES (2024)</strong>3.7 GPA. I started university at 16 and graduated at 19.</span>
+								</li>
+								<li>
+									<i class="fas fa-trophy" aria-hidden="true"></i>
+									<span><strong>1st Place, AMIE Design Thinking Challenge (2024)</strong>Designed a solution for AI bias with a team of seven students, then presented it at the BEYA and AMIE conferences.</span>
+								</li>
+								<li>
+									<i class="fas fa-rocket" aria-hidden="true"></i>
+									<span><strong>Headstarter AI Fellowship</strong>Built projects and learned new technologies alongside a cohort of developers.</span>
+								</li>
+								<li>
+									<i class="fas fa-chalkboard-teacher" aria-hidden="true"></i>
+									<span><strong>Volunteer CS Tutor</strong>Taught coding to students ages 8&ndash;17 through the MSL Symphony program.</span>
+								</li>
+							</ul>
+						</div>
+						<div class="card photo-card">
+							<img src="images/AMIE Design Challenge Group Picture.png" alt="Israel with the UMES team, faculty, and KBR sponsors at the 2024 AMIE competition." loading="lazy" />
+							<div class="body">
+								<h3>AMIE 2024</h3>
+								<p>The UMES team with faculty and KBR sponsors after winning first place.</p>
 							</div>
 						</div>
-						<footer class="major">
-							<ul class="actions special">
-								<li><a href="#" class="button">Back to the top</a></li>
-							</ul>
-						</footer>
 					</div>
-				</section>
 
-			
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/israel-showell-41519b291/" target="_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://www.instagram.com/israel_showell/?igsh=cTNiZ3Yxb2NqbXJv&utm_source=qr" target="_blank" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design by: <a href="http://html5up.net">HTML5 UP - Source code edited and changed by Israel Showell</a></li>
-					</ul>
-				</footer>
+					<h3 class="subhead">Projects</h3>
+					<a class="project featured" href="http://officialwhywait.com/" target="_blank" rel="noopener">
+						<div class="project-thumb art" aria-hidden="true">
+							<i class="fas fa-user-clock"></i>
+							<span>WhyWait</span>
+						</div>
+						<div class="project-body">
+							<span class="kicker">Startup &middot; Full-Stack Developer &middot; 2025&ndash;2026</span>
+							<h3>WhyWait</h3>
+							<p>A web-based queue management app that lets customers hold their place in line from their phone, with no kiosk needed. I built the front and back end and deployed the prototype to AWS. The owner has paused the project indefinitely.</p>
+							<ul class="tags"><li>React</li><li>Node.js</li><li>Expo</li><li>REST APIs</li><li>AWS</li></ul>
+							<span class="more">Visit site <i class="fas fa-external-link-alt" aria-hidden="true"></i></span>
+						</div>
+					</a>
+					<div class="projects">
+						<a class="project" href="prioritask.html">
+							<div class="project-thumb"><img src="images/thumbs/prioritask.jpg" alt="Prioritask home page" loading="lazy" width="640" height="400" /></div>
+							<div class="project-body">
+								<span class="kicker">Senior Design &middot; Team Lead</span>
+								<h3>Prioritask</h3>
+								<p>A task manager with filtering, sorting, and Taski, an AI assistant. I was project manager and technical lead.</p>
+								<ul class="tags"><li>Python</li><li>Flask</li><li>SQLite</li><li>AI API</li></ul>
+								<span class="more">View project <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+							</div>
+						</a>
+						<a class="project" href="stock-master.html">
+							<div class="project-thumb"><img src="images/thumbs/stock-master.jpg" alt="Stock Master home page" loading="lazy" width="640" height="400" /></div>
+							<div class="project-body">
+								<span class="kicker">Web App</span>
+								<h3>Stock Master</h3>
+								<p>An inventory tracker with accounts and a dashboard for adding, editing, and deleting items.</p>
+								<ul class="tags"><li>Python</li><li>SQLite</li><li>HTML/CSS</li></ul>
+								<span class="more">View project <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+							</div>
+						</a>
+						<a class="project" href="voluble.html">
+							<div class="project-thumb"><img src="images/thumbs/voluble.jpg" alt="Voluble Android source code" loading="lazy" width="640" height="400" /></div>
+							<div class="project-body">
+								<span class="kicker">Android App</span>
+								<h3>Voluble</h3>
+								<p>A real-time chat app with authentication, profile customization, and user search.</p>
+								<ul class="tags"><li>Java</li><li>Android</li><li>Firebase</li></ul>
+								<span class="more">View project <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+							</div>
+						</a>
+						<a class="project" href="web-application.html">
+							<div class="project-thumb"><img src="images/thumbs/course-eval.jpg" alt="Course evaluation admin view" loading="lazy" width="640" height="400" /></div>
+							<div class="project-body">
+								<span class="kicker">Web App</span>
+								<h3>Course Evaluation System</h3>
+								<p>Students submit course evaluations, and admins review and search them from a dashboard.</p>
+								<ul class="tags"><li>Python</li><li>SQLite</li><li>HTML/CSS</li></ul>
+								<span class="more">View project <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+							</div>
+						</a>
+						<a class="project" href="iris-predictor.html">
+							<div class="project-thumb"><img src="images/thumbs/iris.jpg" alt="Iris predictor running in a terminal" loading="lazy" width="640" height="400" /></div>
+							<div class="project-body">
+								<span class="kicker">Machine Learning</span>
+								<h3>C++ Iris Predictor</h3>
+								<p>Predicts iris species from sepal and petal measurements, shows its confidence, and learns from new entries.</p>
+								<ul class="tags"><li>C++</li><li>OOP</li><li>Machine Learning</li></ul>
+								<span class="more">View project <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
 
-		</div>
+			<!-- Contact -->
+			<section class="section contact" id="contact">
+				<div class="container">
+					<div class="section-head">
+						<h2>Let's Connect</h2>
+						<p>Open to IT support, systems administration, cloud infrastructure, and development roles.</p>
+					</div>
+					<div class="hero-actions">
+						<a class="btn btn-primary" href="mailto:showellisrael0@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> showellisrael0@gmail.com</a>
+						<a class="btn" href="https://www.linkedin.com/in/israel-showell" target="_blank" rel="noopener"><i class="fab fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a>
+						<a class="btn" href="https://github.com/IsraelShowell" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+					</div>
+				</div>
+			</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		</main>
 
+		<footer class="site-footer">
+			<div class="container">
+				<span>&copy; <span id="year">2026</span> Israel Showell</span>
+				<ul class="social">
+					<li><a href="https://www.linkedin.com/in/israel-showell" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+					<li><a href="https://github.com/IsraelShowell" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+					<li><a href="https://www.instagram.com/israel_showell/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<script>
+			(function () {
+				var toggle = document.querySelector('.nav-toggle');
+				var nav = document.getElementById('site-nav');
+				var icon = toggle.querySelector('i');
+
+				function setOpen(open) {
+					nav.classList.toggle('open', open);
+					toggle.setAttribute('aria-expanded', open);
+					toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+					icon.className = open ? 'fas fa-times' : 'fas fa-bars';
+				}
+
+				toggle.addEventListener('click', function () {
+					setOpen(!nav.classList.contains('open'));
+				});
+
+				nav.addEventListener('click', function (e) {
+					if (e.target.closest('a')) setOpen(false);
+				});
+
+				document.getElementById('year').textContent = new Date().getFullYear();
+			})();
+		</script>
 	</body>
 </html>
