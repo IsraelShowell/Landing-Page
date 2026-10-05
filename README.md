@@ -37,16 +37,22 @@ Refocused on IT support and Azure cloud infrastructure; condensed older experien
 Updated resume to the current PDF and fixed the navigation markup on project pages <br>
 
 # Current Features as of V-3.00:
-- A viewer can read a little bit about me, my projects, and my goals!
-- Able to located on the internet
-- SEO is added into the HTML
-- Mobile friendly media queries have been used to help improve mobile experiences
-- Viewers can read my resumes and learn more about my experiences
+- Mobile-first, responsive layout with a collapsible menu for phones
+- Lightweight standalone stylesheet (assets/css/site.css) with no template JavaScript on the home page
+- Highlights of my IT work: ticket, resolution, and CSAT metrics up front
+- Cloud Infrastructure section covering Azure VMs, virtual networks, Microsoft Entra ID, storage accounts, and automation
+- Experience section with my current role, WhyWait, and expandable entries for earlier roles
+- Grouped skills, plus a condensed background section (education, AMIE win, fellowship, volunteering)
+- Project cards with thumbnails, tech tags, and links to detailed project pages
+- Current resume available as a PDF
+- SEO and Open Graph meta tags, plus accessibility basics (skip link, alt text, keyboard focus styles)
+- QR code linking to the site (images/qr/)
 
 # Future Features to Implement:
 - Use a custom domain for landing page
 - Display more information about projects - Done
 - Improve the UI - Done
+- Mobile-friendly redesign - Done
 - Embed some of my projects into the website
 - React version of website
 - Add a blog functionality to the site
